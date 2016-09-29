@@ -28,7 +28,7 @@ The following features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<href src='http://imgur.com/a/uu6Iu' title='TipCalculatorDemo' width='' alt='TipCalculator' />
+<img src='http://imgur.com/a/uu6Iu' title='TipCalculatorDemo' width='' alt='TipCalculator' />
 
 App demo : http://imgur.com/a/uu6Iu
 
