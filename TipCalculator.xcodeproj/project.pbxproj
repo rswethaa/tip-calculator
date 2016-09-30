@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D401CDBB1D9C66FA00A9BC35 /* K26ToyBlocks123.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D401CDBA1D9C66FA00A9BC35 /* K26ToyBlocks123.ttf */; };
+		D401CDBC1D9C66FA00A9BC35 /* K26ToyBlocks123.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D401CDBA1D9C66FA00A9BC35 /* K26ToyBlocks123.ttf */; };
+		D401CDBD1D9C66FA00A9BC35 /* K26ToyBlocks123.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D401CDBA1D9C66FA00A9BC35 /* K26ToyBlocks123.ttf */; };
 		D44BDC941D9098CB00F235FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44BDC931D9098CB00F235FE /* AppDelegate.swift */; };
 		D44BDC961D9098CB00F235FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44BDC951D9098CB00F235FE /* ViewController.swift */; };
 		D44BDC991D9098CB00F235FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D44BDC971D9098CB00F235FE /* Main.storyboard */; };
@@ -36,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D401CDBA1D9C66FA00A9BC35 /* K26ToyBlocks123.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = K26ToyBlocks123.ttf; sourceTree = "<group>"; };
 		D44BDC901D9098CB00F235FE /* TipCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TipCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D44BDC931D9098CB00F235FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D44BDC951D9098CB00F235FE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -102,6 +106,7 @@
 		D44BDC921D9098CB00F235FE /* TipCalculator */ = {
 			isa = PBXGroup;
 			children = (
+				D401CDBA1D9C66FA00A9BC35 /* K26ToyBlocks123.ttf */,
 				D44BDC931D9098CB00F235FE /* AppDelegate.swift */,
 				D44BDC951D9098CB00F235FE /* ViewController.swift */,
 				D44BDC971D9098CB00F235FE /* Main.storyboard */,
@@ -238,6 +243,7 @@
 				D44BDC9E1D9098CB00F235FE /* LaunchScreen.storyboard in Resources */,
 				D44BDC9B1D9098CB00F235FE /* Assets.xcassets in Resources */,
 				D44BDC991D9098CB00F235FE /* Main.storyboard in Resources */,
+				D401CDBB1D9C66FA00A9BC35 /* K26ToyBlocks123.ttf in Resources */,
 				D47F2A891D98F83A001088AE /* SettingViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -246,6 +252,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D401CDBC1D9C66FA00A9BC35 /* K26ToyBlocks123.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +260,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D401CDBD1D9C66FA00A9BC35 /* K26ToyBlocks123.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

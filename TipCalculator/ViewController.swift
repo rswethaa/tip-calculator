@@ -20,16 +20,16 @@ class ViewController: UIViewController {
     
     var userDefaults : NSUserDefaults?
     var defaultTip : Double?
-    let tipRates = [0.18, 0.20, 0.25]
+    let tipRates = [0.12, 0.15, 0.20]
     var roundingEnabled : Bool?
     
     override func viewDidLoad() {
         super.viewDidLoad()
     }
     
+   
     override func viewDidAppear(animated: Bool) {
         userDefaults = NSUserDefaults.standardUserDefaults()
-        
         defaultTip = userDefaults?.doubleForKey("defaultTip")
         for (index,tmp) in tipRates.enumerate() {
             if(defaultTip == tmp){
@@ -43,6 +43,9 @@ class ViewController: UIViewController {
         if (defaultBgColorSliderValue != nil) {
             let newBackgroundColor = UIColor(hue: CGFloat(defaultBgColorSliderValue!), saturation: 0.9, brightness: 1.0, alpha: 2.0)
             self.view.backgroundColor = newBackgroundColor
+            
+            calculateTip(self)
+            
         }
     }
     
@@ -55,6 +58,16 @@ class ViewController: UIViewController {
      */
     @IBAction func OnTap(sender: AnyObject) {
         view.endEditing(true)
+    }
+    
+    /**
+     * Reset text fields when button is pressed
+     */
+    
+    @IBAction func clearButtonPressed(sender: AnyObject) {
+        billText.text?.removeAll()
+        tipLabel.text = "$0.00"
+        totalLabel.text = "$0.00"
     }
     
     @IBAction func calculateTip(sender: AnyObject) {

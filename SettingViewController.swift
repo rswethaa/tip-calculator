@@ -20,11 +20,24 @@ class SettingViewController: UIViewController {
     var userDefaults : NSUserDefaults?
     let defaultTip: Double? = nil
     var currentTip: Double? = nil
-    let tipRates = [0.18, 0.2, 0.25]
+    let tipRates = [0.12, 0.15, 0.20]
     
     override func viewDidLoad() {
         super.viewDidLoad()
     }
+    
+    override func viewDidAppear(animated: Bool) {
+        
+        super.viewDidAppear(animated)
+        UIView.animateWithDuration(1.7, animations: {
+            self.tipControl.alpha = 5.0
+            self.roundSwitch.alpha = 1.0
+            self.bgcolorSlider.alpha = 1.0
+        })
+
+   
+    }
+
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
