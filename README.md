@@ -30,7 +30,9 @@ Here's a walkthrough of implemented user stories:
 
 <img src='http://imgur.com/a/uu6Iu' title='TipCalculatorDemo' width='' alt='TipCalculator' />
 
-App demo : http://imgur.com/a/uu6Iu
+![TipCalculatorDemo](/TipCalculatorDemo.gif "TipCalculatorDemo")
+
+App demo (in case the above gif embed doesn't work) : http://imgur.com/a/uu6Iu
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
