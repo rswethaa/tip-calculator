@@ -28,8 +28,6 @@ The following features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://imgur.com/a/uu6Iu' title='TipCalculatorDemo' width='' alt='TipCalculator' />
-
 ![TipCalculatorDemo](/TipCalculatorDemo.gif "TipCalculatorDemo")
 
 App demo (in case the above gif embed doesn't work) : http://imgur.com/a/uu6Iu
